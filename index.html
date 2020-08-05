@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Coding Quiz Challenge</h1>
+      <div class="container">
+        <div id="game">
+          <div class="home">
+            <p id="intro">Answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten
+              seconds.</p>
+            <button type="button" class="btn btn-primary" id="start-quiz">Start Quiz</button>
+            <button type="button" class="btn btn-primary" id="show-scores">High Scores</button>
+          </div>
+          <div class="overview">
+            <p id="question-title"></p>
+            <h3 id="question-count"></h3>
+          </div>
+          <div>
+            <p id="score-title"></p>
+            <h3 id="score"></h3>
+          </div>
+        </div>
+        <div class="quiz">
+          <h2 id=question>What is the answer to this question?</h2>
+          <button type="button" class="btn btn-outline-primary choice-text" data-number="1">
+            A. Choice
+          </button>
+          <button type="button" class="btn btn-outline-primary choice-text" data-number="2">
+            B. Choice
+          </button>
+          <button type="button" class="btn btn-outline-primary choice-text" data-number="3">
+            C. Choice
+          </button>
+          <button type="button" class="btn btn-outline-primary choice-text" data-number="4">
+            D. Choice
+          </button>
+        </div>
+      </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
